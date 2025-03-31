@@ -141,7 +141,7 @@ while True:
       # Connect to the origin server
       # ~~~~ INSERT CODE ~~~~
       originalPort = 80
-      originServerSocket.connect(address, originalPort)
+      originServerSocket.connect((address, originalPort))
       # ~~~~ END CODE INSERT ~~~~
       print ('Connected to origin Server')
 
